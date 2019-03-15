@@ -10,10 +10,10 @@ def fizzbuzz (n)
     return 'Buzz'
   end
   
-  if n % 3 == 0 || n % 5 == 0
+  if (n % 3 == 0 || n % 5 == 0)
     return 'FizzBuzz'
   end
     
-  if n % 3 != 0 || n % 5 != 0
+  if (n % 3 != 0 || n % 5 != 0)
     return nil
   end
