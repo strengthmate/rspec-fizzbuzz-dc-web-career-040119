@@ -8,12 +8,8 @@ def fizzbuzz (n)
     return 'Fizz'
   elsif n % 5 == 0
     return 'Buzz'
-  end
-  
-
-  end
-    
-  if n % 3 != 0 || n % 5 != 0
+  else 
+ # if n % 3 != 0 || n % 5 != 0
     return nil
   end
 end
