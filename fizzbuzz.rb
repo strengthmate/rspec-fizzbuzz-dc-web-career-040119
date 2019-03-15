@@ -6,16 +6,10 @@ def fizzbuzz (n)
 
   if n % 3 == 0
     'Fizz'
-  end
-  
-  if n % 5 == 0
+elsif n % 5 == 0
     return 'Buzz'
-  end
-  
-  if n % 3 == 0 || n % 5 == 0
+elsif n % 3 == 0 || n % 5 == 0
     return 'FizzBuzz'
-  end
-    
-  if n % 3 != 0 || n % 5 != 0
+else n % 3 != 0 || n % 5 != 0
     return nil
   end
