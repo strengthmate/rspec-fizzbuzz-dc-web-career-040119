@@ -6,5 +6,5 @@ def fizzbuzz (n)
     return 'Fizz'
   end
   if n % 5 = 0
-    return 'Fizz'
+    return 'Buzz'
   end
